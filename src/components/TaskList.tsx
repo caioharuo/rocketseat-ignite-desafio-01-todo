@@ -17,7 +17,7 @@ export function TaskList() {
   function handleCreateNewTask() {
     // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
     if (newTaskTitle.length === 0) {
-      return alert('Não podemos criar um tarefa sem título!');
+      return alert('Não podemos criar uma tarefa sem título!');
     }
 
     setTasks([
